@@ -2,7 +2,7 @@
     "name": "salox/edu-package",
     "description": "Edu package",
     "type": "library",
-    "license": "APACHE",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Salox\\EduPackage\\": "src/"
