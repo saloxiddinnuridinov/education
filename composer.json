@@ -1,0 +1,26 @@
+{
+    "name": "salox/edu-package",
+    "description": "Edu package",
+    "type": "library",
+    "license": "APACHE",
+    "autoload": {
+        "psr-4": {
+            "Salox\\EduPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salohiddin Nuriddinov"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mint\\Service\\MintServiceProvider"
+            ]
+        }
+    }
+}
